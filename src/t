@@ -1,0 +1,17 @@
+usage: test_rnn.py [-h] --list_path LIST_PATH [--lookback LOOKBACK]
+                   [--step STEP] [--delay DELAY] [--model_name MODEL_NAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --list_path LIST_PATH
+                        [str], list file path for test trajectories, each row
+                        represents a trajectory
+  --lookback LOOKBACK   [int], how long the historical data be seen back,
+                        default value is "600 (seconds)"
+  --step STEP           [int], sampling interval, default value is "6
+                        (seconds)"
+  --delay DELAY         [int], predicting data after @delay seconds, default
+                        value is "6 (seconds)"
+  --model_name MODEL_NAME
+                        [str], the mame of your trained model, default value
+                        is "model"
