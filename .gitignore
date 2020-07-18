@@ -1,5 +1,4 @@
 .idea/
-data/
-/log
+log/
 model/
 tree
