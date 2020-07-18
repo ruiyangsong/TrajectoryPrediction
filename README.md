@@ -139,9 +139,10 @@ Total params: 36,834
 Trainable params: 36,834
 Non-trainable params: 0
 ```
-### 网络结构
-![alt text](./model/model.png 'net structure')
->一层GLU，两层LSTM，一层全连接
-### 训练损失和验证损失
-![alt text](./model/model-lossFigure.png 'net structure')
->一层GLU，两层LSTM，一层全连接
+[^_^]:
+    ### 网络结构
+    ![alt text](./model/model.png 'net structure')
+    >一层GLU，两层LSTM，一层全连接
+    ### 训练损失和验证损失
+    ![alt text](./model/model-lossFigure.png 'net structure')
+    >一层GLU，两层LSTM，一层全连接
